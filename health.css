@@ -1,0 +1,178 @@
+
+#title{
+    background-color: #9BE5AA;
+    
+}
+span{
+    color:   lightseagreen;
+}
+#iphone{
+    width:120%;
+position: absolute;
+padding-top: 30px;
+left: 5%;}
+
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f
+}
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.container-fluid{
+    padding : 4% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+     
+}
+.nav-item{
+    padding :0px 25px;
+     
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.feature-box{
+    text-align:center;
+    padding: 5%;
+
+}
+.icon{
+    color: lightseagreen;
+    
+}
+.icon:hover{
+    color: #2fbe77;
+}
+#doctors{
+    
+    background-color: lightgreen;
+    text-align:center;
+    color: #fff;
+}
+.carousel-item{
+    padding : 7% 15%;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image2{
+    width:15%;
+    height: 100px;;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #9BE5AA;
+    padding:3%;
+    text-align:center;
+
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* FAQ Section Styles */
+
+
+
+#section5 {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #section5 h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  #section5 p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  #section5 h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #333;
+    margin-top: 10px;
+  }
+  
+  #section5 p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+@media  (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    #iphone{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+#cta{
+    background-color:#9BE5AA;
+    color: black;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 10px 10px;
+}
